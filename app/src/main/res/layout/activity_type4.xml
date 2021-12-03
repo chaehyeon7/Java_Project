@@ -9,19 +9,19 @@
     <!--    붕어빵 사진-->
     <ImageView
         android:layout_width="144dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@drawable/bread_hair" />
+        android:src="@drawable/bread_all" />
 
-    <!-- 배부터 먹는 당신 타이틀-->
+    <!-- 통째로 먹는 당신 타이틀-->
     <Button
         android:layout_width="370dp"
         android:layout_height="60dp"
         android:layout_margin="1dp"
         android:layout_gravity="center"
         android:background="@drawable/button_background"
-        android:text="배부터 먹는 당신!"
+        android:text="통째로 한 입 먹는 당신!"
         android:textColor="#000000"
         android:textSize="27dp"
         app:backgroundTint="#9A5C5757" />
@@ -31,8 +31,8 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="매사에 적극적이고 활동적인 성격\n\n\n명랑하고 친근한 성격이라 동성 친구들에게 인기가 많군요!
-하지만 귀가 얇은 편이네요..."
+        android:text="주의 깊고 깔끔한 성격\n\n\n모든지 신중하게 잘 해내군요.
+당신은 어디서든지 자기 할 일을 잘 할 수 있을 것 같아요!"
         android:textSize="30dp"/>
 
 </LinearLayout>

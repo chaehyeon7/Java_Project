@@ -12,16 +12,16 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@drawable/bread_stomach" />
+        android:src="@drawable/bread_hair_first" />
 
-    <!-- 배부터 먹는 당신 타이틀-->
+    <!-- 등지느러미부터 먹는 당신 타이틀-->
     <Button
         android:layout_width="370dp"
         android:layout_height="60dp"
         android:layout_margin="1dp"
         android:layout_gravity="center"
         android:background="@drawable/button_background"
-        android:text="배부터 먹는 당신!"
+        android:text="등지느러미부터 먹는당신!"
         android:textColor="#000000"
         android:textSize="27dp"
         app:backgroundTint="#9A5C5757" />
@@ -31,8 +31,8 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="매사에 적극적이고 활동적인 성격\n\n\n명랑하고 친근한 성격이라 동성 친구들에게 인기가 많군요!
-하지만 귀가 얇은 편이네요..."
+        android:text="상냥하고 차분한 성격\n\n\n마음이 여리고 감수성이 풍부해 눈물이 많네요.
+혼자 있는 것을 즐기는 것이 특징이군요!"
         android:textSize="30dp"/>
 
 </LinearLayout>

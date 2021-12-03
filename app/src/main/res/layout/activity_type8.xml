@@ -12,18 +12,18 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@drawable/bread_stomach" />
+        android:src="@drawable/bread_hair_first" />
 
-    <!-- 배부터 먹는 당신 타이틀-->
+    <!-- 반으로 나눠 머리부터 먹는 당신 타이틀-->
     <Button
         android:layout_width="370dp"
         android:layout_height="60dp"
         android:layout_margin="1dp"
         android:layout_gravity="center"
         android:background="@drawable/button_background"
-        android:text="배부터 먹는 당신!"
+        android:text="반으로 나눠 머리부터 먹는 당신!"
         android:textColor="#000000"
-        android:textSize="27dp"
+        android:textSize="22dp"
         app:backgroundTint="#9A5C5757" />
 
     <EditText
@@ -31,8 +31,8 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="매사에 적극적이고 활동적인 성격\n\n\n명랑하고 친근한 성격이라 동성 친구들에게 인기가 많군요!
-하지만 귀가 얇은 편이네요..."
+        android:text="한번 마음 먹은 일은 꼭 하는 성격\n\n\n대담해 보이는 모습과 달리 은근 소심하네요.
+내면에 자리잡은 소심함 때문에 뒤끝이 있군요!"
         android:textSize="30dp"/>
 
 </LinearLayout>
