@@ -16,9 +16,10 @@
 
 <!-- 머리부터 먹는 당신 타이틀-->
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="370dp"
         android:layout_height="60dp"
         android:layout_margin="1dp"
+        android:layout_gravity="center"
         android:background="@drawable/button_background"
         android:text="머리부터 먹는 당신!"
         android:textColor="#000000"
