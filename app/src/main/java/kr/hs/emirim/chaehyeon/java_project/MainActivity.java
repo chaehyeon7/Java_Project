@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
         button1 = findViewById(R.id.button1);
         button2 = findViewById(R.id.button2);
 
-        button1 = findViewById(R.id.button1);
-        button2 = findViewById(R.id.button2);
-
 //        button1.setOnClickListener(this);
 //        button2.setOnClickListener(this);
 
@@ -33,40 +30,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+//        탄생월 버튼 클릭시 작동
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(getApplicationContext(), activity_selection_screen.class);
+                startActivity(intent2);
+            }
+        });
     }
 }
 
-//    @Override
-//    public void onClick(View v){
-//        switch(v.getId()){
-//            case R.id.button1:
-//                Toast.makeText(MainActivity.this, "버튼 1을 클릭하였습니다.", Toast.LENGTH_LONG).show();
-//                break;
-//            case R.id.button2:
-//                Toast.makeText(MainActivity.this, "버튼 2을 클릭하였습니다.", Toast.LENGTH_LONG).show();
-//                break;
-//            default:
-//                break;
-//        }
-//    }
-//}
-
-
-//        button1.setOnClickListener(new View.OnClickListener() {//버튼 이벤트 처리
-//
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(getApplicationContext(),"버튼 클릭 성공",Toast.LENGTH_SHORT).show();
-//                //버튼 클릭시 Toast 메세지"버튼 클릭 성공" 출력
-//            }
-//        });
-//
-//        button2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(MainActivity.this, "버튼 2을 클릭하였습니다.", Toast.LENGTH_LONG).show();
-//            }
-//        });
-//    }
-//
-//}

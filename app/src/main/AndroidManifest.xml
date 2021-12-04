@@ -16,7 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity_selection_screen"></activity>
+        <activity android:name=".activity_selection_screen" />
+        <activity android:name=".activity_type1" />
+        <activity android:name=".activity_type2" />
+        <activity android:name=".activity_type3" />
+        <activity android:name=".activity_type4" />
+        <activity android:name=".activity_type5" />
+        <activity android:name=".activity_type6" />
+        <activity android:name=".activity_type7" />
+        <activity android:name=".activity_type8" />
+        <activity android:name=".activity_type9" />
     </application>
 
 </manifest>
