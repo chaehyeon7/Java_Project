@@ -31,8 +31,7 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="눈치가 빠르고 자신을 챙기는 성격\n\n\n꼼꼼하고 두뇌회전이 빨라 자기 이익을 잘 챙기네요!
-또한 눈치도 빨라서 사랑을 많이 받는 편이에요!"
+        android:text="눈치가 빠르고 자신을 챙기는 성격\n\n\n꼼꼼하고 두뇌회전이 빨라 자기 이익을 잘 챙기네요!\n또한 눈치도 빨라서 사랑을 많이 받는 편이에요!"
         android:textSize="30dp"/>
 
 </LinearLayout>

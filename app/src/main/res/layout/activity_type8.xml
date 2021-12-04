@@ -31,8 +31,7 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="한번 마음 먹은 일은 꼭 하는 성격\n\n\n대담해 보이는 모습과 달리 은근 소심하네요.
-내면에 자리잡은 소심함 때문에 뒤끝이 있군요!"
+        android:text="한번 마음 먹은 일은 꼭 하는 성격\n\n\n대담해 보이는 모습과 달리 은근 소심하네요.\n내면에 자리잡은 소심함 때문에 뒤끝이 있군요!"
         android:textSize="30dp"/>
 
 </LinearLayout>

@@ -33,6 +33,7 @@
         android:background="@drawable/board"
         android:text="주의 깊고 깔끔한 성격\n\n\n모든지 신중하게 잘 해내군요.
 당신은 어디서든지 자기 할 일을 잘 할 수 있을 것 같아요!"
+        android:singleLine="false"
         android:textSize="30dp"/>
 
 </LinearLayout>

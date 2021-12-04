@@ -31,8 +31,9 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="신중하고 섬세하며 사려 깊은 성격\n\n\n하지만 의외로 연애에 있어서는 둔감한 면이 있어요...
+        android:text="신중하고 섬세하며 사려 깊은 성격\n\n하지만 의외로 연애에 있어서는 둔감한 면이 있어요...\n
 또한 너무 착해 남의 부탁을 잘 거절하지 못하는 편이군요."
+        android:singleLine="false"
         android:textSize="30dp"/>
 
 </LinearLayout>

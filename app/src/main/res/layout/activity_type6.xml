@@ -31,8 +31,9 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="활동적이고 대담한 성격\n\n\n활동적인 당신은 누구에게나 사랑받군요!
+        android:text="활동적이고 대담한 성격\n\n\n활동적인 당신은 누구에게나 사랑받군요!\n
 또한 대담한 성격 덕에 다른 사람 앞에 나서는 것을 좋아해요."
+        android:singleLine="false"
         android:textSize="30dp"/>
 
 </LinearLayout>

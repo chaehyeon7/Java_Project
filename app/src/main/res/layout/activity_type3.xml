@@ -33,6 +33,7 @@
         android:background="@drawable/board"
         android:text="매사에 적극적이고 활동적인 성격\n\n\n명랑하고 친근한 성격이라 동성 친구들에게 인기가 많군요!
 하지만 귀가 얇은 편이네요..."
+        android:singleLine="false"
         android:textSize="30dp"/>
 
 </LinearLayout>
