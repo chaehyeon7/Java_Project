@@ -18,7 +18,7 @@
         android:layout_margin="1dp"
         android:layout_gravity="center"
         android:background="@drawable/button_background"
-        android:text="머리부터 먹는 당신!"
+        android:text="1월에 대어난 당신!"
         android:textColor="#000000"
         android:textSize="27dp"
         app:backgroundTint="#9A5C5757" />
@@ -28,8 +28,7 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="낙천적이고 개방적인 성격\n\n\n은근히 승부욕이 강해 남에게 지는 것을 싫어합니다.\n
-동성보단 이성친구들에게 인기가 많군요!"
+        android:text="따뜻한 마음으로 남을 보살피고 감싸는 리더십이 있으며 정직하고 친절한 성격을 가지고 있네요!"
         android:singleLine="false"
         android:textSize="30dp"/>
 

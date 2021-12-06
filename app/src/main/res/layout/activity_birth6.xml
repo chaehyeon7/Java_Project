@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/june" />
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_margin="1dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:text="6월에 대어난 당신!"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        app:backgroundTint="#9A5C5757" />
+
+    <EditText
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/board"
+        android:text="활발하고 에너지가 넘쳐 주변에 항상 친구가 많아요. 하지만 일부 몇 사람에게는 좋지 않은 시선을 받네요..."
+        android:singleLine="false"
+        android:textSize="30dp"/>
+
+</LinearLayout>
