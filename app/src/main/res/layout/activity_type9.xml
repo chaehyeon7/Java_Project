@@ -31,7 +31,7 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="상냥하고 차분한 성격\n\n\n마음이 여리고 감수성이 풍부해 눈물이 많네요.\n혼자 있는 것을 즐기는 것이 특징이군요!"
+        android:text="     상냥하고 차분한 성격\n\n\n마음이 여리고 감수성이 풍부해 눈물이 많네요.\n혼자 있는 것을 즐기는 것이 특징이군요!"
         android:textSize="30dp"/>
 
 </LinearLayout>

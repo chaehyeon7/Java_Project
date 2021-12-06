@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/january" />
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_margin="1dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:text="머리부터 먹는 당신!"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        app:backgroundTint="#9A5C5757" />
+
+    <EditText
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/board"
+        android:text="낙천적이고 개방적인 성격\n\n\n은근히 승부욕이 강해 남에게 지는 것을 싫어합니다.\n
+동성보단 이성친구들에게 인기가 많군요!"
+        android:singleLine="false"
+        android:textSize="30dp"/>
+
+</LinearLayout>

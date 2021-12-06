@@ -31,10 +31,8 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="낙천적이고 개방적인 성격\n\n\n은근히 승부욕이 강해 남에게 지는 것을 싫어합니다.\n
-동성보단 이성친구들에게 인기가 많군요!"
+        android:text="  낙천적이고 개방적인 성격\n\n\n은근히 승부욕이 강해 남에게 지는 것을 싫어합니다.\n동성보단 이성친구들에게 인기가 많군요!"
         android:singleLine="false"
-        android:textSize="30dp"/>
-
+    android:textSize="30dp"/>
 
 </LinearLayout>

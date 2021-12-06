@@ -31,7 +31,7 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="내성적이고 미숙한 성격\n\n\n소심해서 처음보는 사람과는 말을 잘 섞지 못해요.\n그래도 미숙한 성격 덕에 주위에 챙겨주는 사람이 많아요!"
+        android:text="    내성적이고 미숙한 성격\n\n\n소심해서 처음보는 사람과는 말을 잘 섞지 못해요.\n그래도 미숙한 성격 덕에 주위에 챙겨주는 사람이 많아요!"
         android:singleLine="false"
         android:textSize="30dp"/>
 
