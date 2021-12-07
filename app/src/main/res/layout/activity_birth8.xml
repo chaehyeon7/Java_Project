@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/august" />
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_margin="1dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:text="8월에 대어난 당신!"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        app:backgroundTint="#9A5C5757" />
+
+    <EditText
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/board"
+        android:text="자신감이 넘치고 대담한 면이 있어 우선 일을 저지르고 보는군요, 상대방이 누군지에 따라 행동이 달라질 수 있고 교묘한 면이 있어요."
+        android:singleLine="false"
+        android:textSize="30dp"/>
+
+</LinearLayout>

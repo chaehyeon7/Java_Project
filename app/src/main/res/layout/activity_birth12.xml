@@ -18,7 +18,7 @@
         android:layout_margin="1dp"
         android:layout_gravity="center"
         android:background="@drawable/button_background"
-        android:text="9월에 대어난 당신!"
+        android:text="12월에 대어난 당신!"
         android:textColor="#000000"
         android:textSize="27dp"
         app:backgroundTint="#9A5C5757" />
@@ -28,7 +28,7 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="일을 서두르는 법이 없고 느긋하게 즐기는 성격이네요, 또한 보수적이고 신사적이며 매너가 좋은 편이네요!"
+        android:text="즉흥적이고 자유분방하며 호기심이 많아요, 여러 사람들과 어울려 노는 것을 좋아해요!"
         android:singleLine="false"
         android:textSize="30dp"/>
 

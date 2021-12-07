@@ -18,7 +18,7 @@
         android:layout_margin="1dp"
         android:layout_gravity="center"
         android:background="@drawable/button_background"
-        android:text="9월에 대어난 당신!"
+        android:text="11월에 대어난 당신!"
         android:textColor="#000000"
         android:textSize="27dp"
         app:backgroundTint="#9A5C5757" />
@@ -28,7 +28,7 @@
         android:layout_height="500dp"
         android:layout_margin="17dp"
         android:background="@drawable/board"
-        android:text="일을 서두르는 법이 없고 느긋하게 즐기는 성격이네요, 또한 보수적이고 신사적이며 매너가 좋은 편이네요!"
+        android:text="거칠고 무뚝뚝한 겉모습과는 달리 속은 여리고 다정다감해요. 겉바속촉! 민감하고 섬세한 면도 있어 마음에 상처가 많은 편이네요."
         android:singleLine="false"
         android:textSize="30dp"/>
 
