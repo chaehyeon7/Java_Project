@@ -36,10 +36,8 @@
         android:layout_gravity="center"
         android:layout_marginBottom="80dp"
         android:background="@drawable/button_background"
-        android:text="\t\t\t태어난 달:\n\t\t\t이       름:"
+        android:text="태어난 월을 고르세요"
         android:textColor="#000000"
-        android:textSize="25dp"
-        android:gravity="left"
-
+        android:textSize="30dp"
         app:backgroundTint="#9A5C5757" />
 </LinearLayout>
