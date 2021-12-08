@@ -38,6 +38,7 @@
         <activity android:name=".activity_birth10" />
         <activity android:name=".activity_birth11" />
         <activity android:name=".activity_birth12" />
+        <activity android:name=".activity_selection_screen2" />
     </application>
 
 </manifest>

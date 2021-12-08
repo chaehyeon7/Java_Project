@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
         button1 = findViewById(R.id.button1);
         button2 = findViewById(R.id.button2);
 
-//        button1.setOnClickListener(this);
-//        button2.setOnClickListener(this);
-
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(getApplicationContext(), activity_selection_screen.class);
+                Intent intent2 = new Intent(getApplicationContext(), activity_selection_screen2.class);
                 startActivity(intent2);
             }
         });

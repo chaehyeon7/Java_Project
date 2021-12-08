@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/b_1"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="1월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_2"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="2월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_3"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="3월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_4"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="4월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+
+
+        <Button
+            android:id="@+id/b_5"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="5월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_6"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="6월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_7"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="7월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_8"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="8월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_9"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="9월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+        <Button
+            android:id="@+id/b_10"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="10월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_11"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="11월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+        <Button
+            android:id="@+id/b_12"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="12월"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            app:backgroundTint="#9A5C5757" />
+
+
+    </LinearLayout>
+
+</ScrollView>
