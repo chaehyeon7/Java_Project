@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--    붕어빵 사진-->
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@drawable/bread_tail" />
 
-    <!--    붕어빵 사진-->
-    <ImageView
-        android:layout_width="144dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:src="@drawable/bread_tail" />
+        <!-- 꼬리부터 먹는 당신 타이틀-->
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:layout_margin="1dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="꼬리부터 먹는 당신!"
+            android:textColor="#000000"
+            android:textSize="27dp"
+            app:backgroundTint="#9A5C5757" />
 
-    <!-- 꼬리부터 먹는 당신 타이틀-->
-    <Button
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:layout_margin="1dp"
-        android:layout_gravity="center"
-        android:background="@drawable/button_background"
-        android:text="꼬리부터 먹는 당신!"
-        android:textColor="#000000"
-        android:textSize="27dp"
-        app:backgroundTint="#9A5C5757" />
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="500dp"
+            android:layout_margin="17dp"
+            android:background="@drawable/board"
+            android:text="  신중하고 섬세하며 사려 깊은 성격\n\n하지만 의외로 연애에 있어서는 둔감한 면이 있어요...\n또한 너무 착해 남의 부탁을 잘 거절하지 못하는 편이군요."
+            android:singleLine="false"
+            android:textSize="30dp"/>
 
-    <EditText
-        android:layout_width="360dp"
-        android:layout_height="500dp"
-        android:layout_margin="17dp"
-        android:background="@drawable/board"
-        android:text="  신중하고 섬세하며 사려 깊은 성격\n\n하지만 의외로 연애에 있어서는 둔감한 면이 있어요...\n또한 너무 착해 남의 부탁을 잘 거절하지 못하는 편이군요."
-        android:singleLine="false"
-        android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:text="다음"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_background"
+            app:backgroundTint="#9A5C5757"/>
+    </LinearLayout>
 
-</LinearLayout>
+
+
+</ScrollView>

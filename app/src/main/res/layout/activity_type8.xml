@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <!--    붕어빵 사진-->
-    <ImageView
-        android:layout_width="144dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:src="@drawable/bread_hair_first" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--    붕어빵 사진-->
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@drawable/bread_hair_first" />
 
-    <!-- 반으로 나눠 머리부터 먹는 당신 타이틀-->
-    <Button
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:layout_margin="1dp"
-        android:layout_gravity="center"
-        android:background="@drawable/button_background"
-        android:text="반으로 나눠 머리부터 먹는 당신!"
-        android:textColor="#000000"
-        android:textSize="22dp"
-        app:backgroundTint="#9A5C5757" />
+        <!-- 반으로 나눠 머리부터 먹는 당신 타이틀-->
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:layout_margin="1dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="반으로 나눠 머리부터 먹는 당신!"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            app:backgroundTint="#9A5C5757" />
 
-    <EditText
-        android:layout_width="360dp"
-        android:layout_height="500dp"
-        android:layout_margin="17dp"
-        android:background="@drawable/board"
-        android:text="한번 마음 먹은 일은 꼭 하는 성격\n\n\n대담해 보이는 모습과 달리 은근 소심하네요.\n내면에 자리잡은 소심함 때문에 뒤끝이 있군요!"
-        android:textSize="30dp"/>
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="500dp"
+            android:layout_margin="17dp"
+            android:background="@drawable/board"
+            android:text="한번 마음 먹은 일은 꼭 하는 성격\n\n\n대담해 보이는 모습과 달리 은근 소심하네요.\n내면에 자리잡은 소심함 때문에 뒤끝이 있군요!"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:text="다음"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_background"
+            app:backgroundTint="#9A5C5757"/>
 
-</LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
