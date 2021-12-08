@@ -26,6 +26,18 @@
         <activity android:name=".activity_type7" />
         <activity android:name=".activity_type8" />
         <activity android:name=".activity_type9" />
+        <activity android:name=".activity_birth1" />
+        <activity android:name=".activity_birth2" />
+        <activity android:name=".activity_birth3" />
+        <activity android:name=".activity_birth4" />
+        <activity android:name=".activity_birth5" />
+        <activity android:name=".activity_birth6" />
+        <activity android:name=".activity_birth7" />
+        <activity android:name=".activity_birth8" />
+        <activity android:name=".activity_birth9" />
+        <activity android:name=".activity_birth10" />
+        <activity android:name=".activity_birth11" />
+        <activity android:name=".activity_birth12" />
     </application>
 
 </manifest>

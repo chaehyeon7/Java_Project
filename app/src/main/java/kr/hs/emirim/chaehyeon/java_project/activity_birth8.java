@@ -4,13 +4,13 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class activity_type2 extends AppCompatActivity {
+public class activity_birth8 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_type2);
-
+        setContentView(R.layout.activity_birth8);
 
     }
+
 }
