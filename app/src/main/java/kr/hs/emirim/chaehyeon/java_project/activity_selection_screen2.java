@@ -54,59 +54,81 @@ public class activity_selection_screen2 extends AppCompatActivity {
         b_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn2 = new Intent(getApplicationContext(), activity_type2.class);
+                Intent btn2 = new Intent(getApplicationContext(), activity_birth2.class);
                 startActivity(btn2);
             }
         });
         b_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn3 = new Intent(getApplicationContext(), activity_type3.class);
+                Intent btn3 = new Intent(getApplicationContext(), activity_birth3.class);
                 startActivity(btn3);
             }
         });
         b_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn4 = new Intent(getApplicationContext(), activity_type4.class);
+                Intent btn4 = new Intent(getApplicationContext(), activity_birth4.class);
                 startActivity(btn4);
             }
         });
         b_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn5 = new Intent(getApplicationContext(), activity_type5.class);
+                Intent btn5 = new Intent(getApplicationContext(), activity_birth5.class);
                 startActivity(btn5);
             }
         });
         b_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn6 = new Intent(getApplicationContext(), activity_type6.class);
+                Intent btn6 = new Intent(getApplicationContext(), activity_birth6.class);
                 startActivity(btn6);
             }
         });
         b_7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn7 = new Intent(getApplicationContext(), activity_type7.class);
+                Intent btn7 = new Intent(getApplicationContext(), activity_birth7.class);
                 startActivity(btn7);
             }
         });
         b_8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn8 = new Intent(getApplicationContext(), activity_type8.class);
+                Intent btn8 = new Intent(getApplicationContext(), activity_birth8.class);
                 startActivity(btn8);
             }
         });
         b_9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btn9 = new Intent(getApplicationContext(), activity_type9.class);
+                Intent btn9 = new Intent(getApplicationContext(), activity_birth9.class);
                 startActivity(btn9);
             }
         });
+        b_10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent btn9 = new Intent(getApplicationContext(), activity_birth10.class);
+                startActivity(btn9);
+            }
+        });
+        b_11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent btn9 = new Intent(getApplicationContext(), activity_birth11.class);
+                startActivity(btn9);
+            }
+        });
+        b_12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent btn9 = new Intent(getApplicationContext(), activity_birth12.class);
+                startActivity(btn9);
+            }
+        });
+
 
     }
 }
